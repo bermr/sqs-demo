@@ -1,0 +1,12 @@
+{
+  "name": "sqs-demo",
+  "version": "1.0.0",
+  "description": "Contains a nodejs example for basic message exchange.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bermr/sqs-demo.git"
+  },
+  "dependencies": {
+    "aws-sdk": "2.865.0"
+  }
+}
