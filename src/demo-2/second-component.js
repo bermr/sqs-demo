@@ -12,7 +12,7 @@ const run = async () => {
             }).promise();
 
             if (a.Messages) {
-                console.log('Message received: ', a.Messages[0].Body);
+                console.log('Message received: ', JSON.parse(a.Messages[0].Body).Message);
 
                 await sqs.deleteMessage({
                     QueueUrl: queueUrl,
